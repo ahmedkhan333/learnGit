@@ -1,0 +1,168 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+h2{
+    margin-left: 45%;
+    color: khaki;
+    text-decoration: yellow;
+    position: sticky;
+    cursor: pointer;
+    
+    
+}
+h2:hover{
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    
+}
+.nav{
+
+    display: block;
+    position: sticky;
+    padding: 15px 250px;
+    margin-left: 10px;
+    
+}
+
+.navList{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    margin-left: 0%;
+
+}
+.navList:hover{
+    
+    font-size: large;
+    transition-delay: 0.1s;
+}
+
+header,footer{
+    
+    color: rgb(255, 0, 0);
+    padding: 45px;
+
+  }
+
+body{
+    background-image: url("../img/start.jpg");
+    background-repeat:no-repeat;
+    background-size: 1800px;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-blend-mode: saturation;
+    -webkit-background-composite: padding;
+    
+}
+iframe{
+    float: inherit;
+    margin-left: 30%;
+    display: ruby-base-container;
+    opacity: 0.4;
+    box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+iframe:hover{
+    opacity: 1.0;
+    transition-duration: 0.5s;
+   
+    
+}
+p.solid{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgba(84, 168, 147, 0.774);
+    border-radius: 205px;
+    border-width: 15px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgba(1, 5, 5, 0.582);
+    
+   
+
+}
+.solid:hover{
+    margin-left: 60px;
+    margin-right: 60px;
+    transition-duration: 0.5s;
+}
+.types{
+    align-items: right;
+    width: 600px;
+    position: center;
+    display:inline-flex;
+    flex-direction: column;
+    color: white;
+    
+    
+}
+ul:hove{
+    transform: translateY(190deg);
+}
+
+li{
+    display:inline-block;
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.623);
+    list-style: square;
+    lighting-color: yellow;
+    text-transform: uppercase;
+    
+  cursor: pointer;
+    
+}
+li:hover{
+    background: rgb(151, 182, 13);
+    transition-duration: 0.4s;
+   
+    transform-style: preserve-3d;
+    -webkit-transform-style: initial;
+
+}
+p.post{
+    position:-webkit-sticky;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: x-large;
+    border-color: rgb(236, 35, 0);
+    border-radius:35px;
+    border-width: thick;
+    border-left: magenta;
+    margin-left: 35%;
+    margin-right: 35%;
+    cursor: pointer;
+    
+}
+.post:hover{
+    margin-right: 15%;
+    margin-left: 15%;
+    transition-duration: 0.5s;
+}
+#demo{
+    display: block;
+    background-color: chocolate;
+    float: right;
+}
+a{
+    display: inline-block;
+    padding: 18px 25px;
+    background-color: chartreuse;
+    text-decoration: none;
+    color: white;
+    text-shadow: violet;
+    align-content: center ;
+    margin-right: 0%;
+
+}
+a:hover {
+    background-color: rgb(25, 25, 77);
+    transition-duration: 0.8s;
+}
+
+
+
