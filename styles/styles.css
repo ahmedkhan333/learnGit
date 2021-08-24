@@ -109,7 +109,7 @@ li{
     background-color: rgba(0, 0, 0, 0.623);
     list-style: square;
     lighting-color: yellow;
-    text-transform: uppercase;
+    text-transform: lowercase;
     
   cursor: pointer;
     
